@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira aula</title>
+    <style>
+        .alinhamento{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .btn{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blue;">Minha primeira aula web com HTML (não é)</h1>
+    <p>Esta é minha primeira pagina usando HTML (não é)</p>
+    <br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit excepturi sint labore atque, illo delectus, perferendis reprehenderit nostrum voluptatibus obcaecati nemo hic distinctio? Vero delectus explicabo, fugiat aperiam nihil quo?</p>
+    <hr>
+
+    <!--batata-->
+    <!-- Este é um comentário -->
+    <p>parte dos comentarios</p>
+    <hr>
+
+    <!-- Formatação de texto -->
+    <p> <b>Alguma</b>   frase <i>importante</i> <u>para vocês</u> </p>
+    <p>Alguma frase importante para vocês</p>
+    <hr>
+
+    <!-- Listas -->
+    <ul>
+        <li>café</li>
+        <li>jogos</li>
+        <li>milk</li>
+    </ul>
+    <ol>
+        <li>café</li>
+        <li>jogos</li>
+        <li>milk</li>
+    </ol>
+    <ul style="list-style: none;">
+        <li>Item da lista 1</li>
+        <li>Item da lista 1</li>
+        <li>Item da lista 1</li>
+        <li>Item da lista 1</li>
+        <li>Item da lista 1</li>
+        <li>Item da lista 1</li>
+        <li>Item da lista 1</li>
+        <li>Item da lista 1</li>
+        <li>Item da lista 1</li>
+        <li>Item da lista 1</li>
+    </ul>
+    <ol style="list-style: none;">
+        <li>Item da lista 2</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 2</li>
+    </ol>
+    <hr>
+    <div style="background-color: rgb(248, 215, 69); color: rgb(255, 0, 0);">
+        <h2>Subtítulo</h2>
+        <p>Alguma frase muito legal</p>
+        <p>Alguma coisa</p>
+    </div>
+    <hr>
+
+    <!-- Links -->
+    <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">visite esta página do W3school</a>
+    <hr>
+
+    <!-- Imagens -->
+    <img src="./img/2FLP6324.webp" alt="porsche 911 gt3 rs" width="400px" height="auto"> <br>
+    <img src="https://imgs.search.brave.com/Oio7ko9Je4KuPit1F3uxfUPdK4w6nqC-eY_p9YQhxgw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9xdWF0/cm9yb2Rhcy5hYnJp/bC5jb20uYnIvd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMTEv/MkZMUDUzODYtRW5o/YW5jZWQtTlItZTE3/MDA2NjQ3NjAxNTQu/anBnP3F1YWxpdHk9/NzAmc3RyaXA9aW5m/byZ3PTEyODAmaD03/MjAmY3JvcD0x" alt="Porsche 911 gt3 rs" height="auto" width="400px"> <br>
+    <img src="./img/porsche 911 gt3 rs.jpg" alt="Porsche 911 gt3 rs" style="border-radius: 100%;"> <br>
+    <hr>
+
+    <!-- tag genérica  -->
+    <p>Lorem ipsum dolor sit amet consectetur, <span style="color: red;"> adipisicing elit. Quidem minus cupiditate eum, dolores alias voluptatum </span>enim id reprehenderit qui repudiandae unde, blanditiis, eaque expedita necessitatibus! Ut minima voluptatum laboriosam beatae?</p>
+    <h1>Batata no almoço é <span style="text-decoration: underline;">padrão</span></h1>
+    <hr>
+
+    <!-- tables -->
+    <table  border="1">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Senai</td>
+            <td>(41) 9 8785-6673</td>
+            <td>Brasil</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- formulários -->
+    <form action="">
+        <label for="nome">Nome</label><br>
+        <input type="text" name="" id="nome" placeholder="Insira seu nome" style="margin-bottom: 2%;"><br>
+        <label for="telefone">Telefone</label><br>
+        <input type="number" name="" id="telefone" placeholder="insira seu Telefone" style="margin-bottom: 2%;"><br>
+        <button type="submit">enviar</button>
+    </form>
+    <hr>
+
+    <!-- videos -->
+
+    <iframe src="https://www.youtube.com/embed/wf4xpintGFg?si=EqzlrNtgXvSXeqTK" frameborder="0"></iframe>
+    <iframe width="100%" height="500px" src="https://www.youtube.com/embed/wf4xpintGFg?si=EqzlrNtgXvSXeqTK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <section class="alinhamento">
+        <h2>Exercícios</h2>
+        <div>
+            <button onclick="window.location.href='./exer1.html'" class="btn">Primeira atividade</button>
+            <button onclick="window.location.href='./exer2.html'"class="btn">Segunda atividade</button>
+            <button onclick="window.location.href='./exer3.html'" class="btn">Terceira atividade</button>
+        </div>
+    </section>
+</body>
+</html>
